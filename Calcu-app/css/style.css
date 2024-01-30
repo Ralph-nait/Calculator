@@ -9,14 +9,25 @@ html {
   }
 .flex-container{
     border: solid 3px green;
-    background-color: #c4bfbf;
+    background-color: #FFFAFA;
     height: 100vh;
-    display: flex;
+    width: 100vw;
+    display: flex; 
+    flex-wrap: wrap;
     align-items: center;
-    align-content: center;
     justify-content: center;
-    justify-items: center;
 }
+/* .flex-container div{
+    height: ;
+} */
 .btn-change{
-
+    height: 6rem;
+    color: #FFFFF0;
+    background-color: #7f7f7f;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+}
+.btn-change:hover{
+    color: #2F4F4F;
+    transition: 0.2s;
 }
