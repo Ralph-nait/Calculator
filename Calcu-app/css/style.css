@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.flex-container{
+    border: solid 3px green;
+    background-color: #c4bfbf;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.btn-change{
+
+}
