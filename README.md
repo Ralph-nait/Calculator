@@ -19,7 +19,10 @@ Questions, goals, etc for the Calculator web app are:
 7. the AC button is for ALL CLEAR all entry and C is for CLEAR the last entry (maybe just do clear all first for since it might be easier)
 
 >TODO
-> 1. Create a journal of what i learned to do
+>
+> - [x] Create a journal of what i learned to do
+> - [ ] Comment out the test button before coding the calculator
+> - [ ] Actually start coding the calculator
 
 
 

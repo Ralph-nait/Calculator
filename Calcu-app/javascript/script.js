@@ -1,11 +1,20 @@
 console.log('loaded js')
-let btn = document.getElementById('div-button')
-
-let tet = btn.style.borderColor;
-console.log(tet)
-
 //do it with a parameter as well ie. function(event)
 //this function will change the 10px border color 
-const foo = function(){
-
+let btn = document.getElementById('div-button')
+const ran = function(){
+    return Math.floor(Math.random() * 256)
 }
+const foo = function(){
+    console.log('foo works')
+    let color = `rgba(${ran()},${ran()},${ran()},1)`
+    btn.style.borderColor = color;
+   console.log(getComputedStyle(btn).borderColor);
+}
+btn.addEventListener('click', foo);
+
+// let btn = document.getElementById('div-button');
+// const foo = function() {
+//     getComputedStyle(btn).borderColor;
+// }
+// btn.addEventListener('click', foo);

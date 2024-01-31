@@ -9,7 +9,7 @@ html {
   }
 .flex-container{
     border-top: 20px;
-    border: solid 10px green;
+    border: solid 10px;
     background-color: #FFFAFA;
     height: 100vh;
     width: 100vw;
@@ -17,7 +17,7 @@ html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    border-color: green;
+    border-color: rgba(0, 255, 0,1);
 }
 /* .flex-container div{
     height: ;
