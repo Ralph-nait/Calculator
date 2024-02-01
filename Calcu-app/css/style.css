@@ -7,7 +7,39 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  body{
+    background-color: #181818;
+  }
 .flex-container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.calculator-outline{
+    width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.button{
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* for button test */
+/* .flex-container{
     border-top: 20px;
     border: solid 10px;
     background-color: #FFFAFA;
@@ -18,11 +50,11 @@ html {
     align-items: center;
     justify-content: center;
     border-color: rgba(0, 255, 0,1);
-}
+} */
 /* .flex-container div{
     height: ;
 } */
-.btn-change{
+/* .btn-change{
     padding: 1rem;
     height: 6rem;
     color: #FFFFF0;
@@ -35,4 +67,4 @@ html {
     color: #2F4F4F;
     background-color: #FFB6C1;
     transition: 0.15s;
-}
+} */
