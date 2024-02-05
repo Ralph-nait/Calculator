@@ -28,4 +28,4 @@ It is camel case if its separated by '-'. borderColor returns RGB(0,0,0) values
 
 ## 02-04-24
 
- Made some progress on the buttons. Need to do the javascript next and the screen for the calculator.
+ Made some progress on the buttons. Added **active** pseudo class for user(me) feedback. Need to do the javascript next and the screen for the calculator.

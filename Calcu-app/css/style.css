@@ -51,10 +51,16 @@ html {
     border-radius: 50%;
     font: normal 2.3rem 'Roboto', sans-serif;
 }
+.button:active{
+    background-color: #D3D3D3;
+}
 .button.operation{
     background-color: #FFAC1C;
     font-size: 2.5rem;
     color: #fff;
+}
+.button.operation:active{
+    background-color: #f0c780;
 }
 .button.zero{
     width: 13.5rem;
