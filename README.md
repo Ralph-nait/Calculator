@@ -20,7 +20,7 @@ Questions, goals, etc for the Calculator web app are:
 1. the AC button is for ALL CLEAR all entry and C is for CLEAR the last entry (maybe just do clear all first for since it might be easier)
 
 >TODO
-> - [ ] Style the buttons so that they are the same width. The 0 button will be two buttons bigger
+> - [x] Style the buttons so that they are the same width. The 0 button will be two buttons bigger
 > 
 > - [ ] Style the div screen that outputs the numbers
 > 
@@ -29,6 +29,7 @@ Questions, goals, etc for the Calculator web app are:
 > - [x] Comment out the test button before coding the calculator
 > - [x] Actually start coding the calculator
 > - [x] Change the Journal and get rid of '>' sign
+> - [ ] 
 
 
 

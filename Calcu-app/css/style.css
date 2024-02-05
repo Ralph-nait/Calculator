@@ -28,37 +28,38 @@ html {
     gap: 1rem; 
 }
 .screen{
-    width: 50rem;
-    height: 10rem;
+    width: 25rem;
+    height: 7.5rem;
     background-color: #ffffff;
     color: #000;
     text-align: right;
-    
+    padding: 2rem;
+
 }
-top-div{
+/* row-buttons{
     display: inline-block;
     
-}
+} */
 .button{
-    margin-left: 0.5rem;
+    display: inline-block;
+    margin-left: 0.75rem;
+    margin-bottom: 0.75rem;
     width: 6.5rem;
     border: none;
     background-color: #808080;
     height: 6.5rem;
     border-radius: 50%;
-    font: normal 2rem 'Roboto', sans-serif;
-    
+    font: normal 2.3rem 'Roboto', sans-serif;
 }
 .button.operation{
     background-color: #FFAC1C;
     font-size: 2.5rem;
+    color: #fff;
 }
-
-
-
-
-
-
+.button.zero{
+    width: 13.5rem;
+    border-radius: 35px;
+}
 
 
 

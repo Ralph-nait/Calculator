@@ -25,3 +25,7 @@ It is camel case if its separated by '-'. borderColor returns RGB(0,0,0) values
 ## 02-01-24
 
  Could use the button tag for making the buttons which is semantically correct but I've seen websites use span or divs which I'm guessing is easy to design.
+
+## 02-04-24
+
+ Made some progress on the buttons. Need to do the javascript next and the screen for the calculator.
