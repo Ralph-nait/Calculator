@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    
+    font-family: 'Roboto', sans-serif;
   }
   
   *, *:before, *:after {
@@ -9,6 +9,7 @@ html {
   }
   body{
     background-color: #181818;
+    font-family: 'Roboto', sans-serif;
   }
 .flex-container{
     height: 100vh;
@@ -18,17 +19,40 @@ html {
     align-items: center;
 }
 .calculator-outline{
-    width: 15rem;
+    border: #fff solid 1px;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    gap: 1rem; 
 }
-.button{
+.screen{
+    width: 50rem;
+    height: 10rem;
+    background-color: #ffffff;
+    color: #000;
+    text-align: right;
+    
+}
+top-div{
     display: inline-block;
     
 }
-
+.button{
+    margin-left: 0.5rem;
+    width: 6.5rem;
+    border: none;
+    background-color: #808080;
+    height: 6.5rem;
+    border-radius: 50%;
+    font: normal 2rem 'Roboto', sans-serif;
+    
+}
+.button.operation{
+    background-color: #FFAC1C;
+    font-size: 2.5rem;
+}
 
 
 
